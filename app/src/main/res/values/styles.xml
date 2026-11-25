@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.QuanLyKhoHang.Base" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorAccent">@color/primary</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.QuanLyKhoHang" parent="Theme.QuanLyKhoHang.Base" />
+
+    <style name="ScreenTitleBase">
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="ScreenTitle" parent="ScreenTitleBase" />
+
+    <style name="FieldLabel">
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="FieldInput">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textColorHint">@color/muted</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ActionButton" parent="android:style/Widget.Material.Button">
+        <item name="android:background">@drawable/bg_action</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/surface</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="CategoryBadge">
+        <item name="android:background">@drawable/bg_badge</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textColor">@color/primary_ink</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="LowStockBadge" parent="CategoryBadge">
+        <item name="android:background">@drawable/bg_low_stock</item>
+        <item name="android:textColor">@color/danger</item>
+    </style>
+
+    <style name="StatLabel">
+        <item name="android:textColor">@color/on_primary_muted</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="StatValue">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/surface</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="DetailLabel">
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="DetailValue">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

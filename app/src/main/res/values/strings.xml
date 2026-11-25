@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản lý kho hàng</string>
+    <string name="logo">SP</string>
+    <string name="login_subtitle">Đăng nhập để tiếp tục</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login_submit">Đăng nhập</string>
+    <string name="sample_account">Tài khoản mẫu: admin / 123456</string>
+    <string name="login_required">Vui lòng nhập tên đăng nhập và mật khẩu</string>
+    <string name="login_wrong">Sai tên đăng nhập hoặc mật khẩu</string>
+
+    <string name="main_title">Kho hàng của tôi</string>
+    <string name="total_inventory_value">Tổng giá trị kho</string>
+    <string name="total_products">Tổng số sản phẩm</string>
+    <string name="total_low_stock">Sắp hết hàng</string>
+    <string name="products_heading">Danh sách sản phẩm</string>
+    <string name="empty_products">Kho chưa có sản phẩm</string>
+    <string name="add_product">+ Thêm sản phẩm</string>
+    <string name="quantity_short">SL: %1$d</string>
+    <string name="money_vnd">%1$s đ</string>
+
+    <string name="add_title">Thêm sản phẩm</string>
+    <string name="product_name">Tên sản phẩm</string>
+    <string name="price_input_label">Giá bán (VNĐ)</string>
+    <string name="quantity">Số lượng</string>
+    <string name="category">Loại sản phẩm</string>
+    <string name="active_product">Đang kinh doanh</string>
+    <string name="inactive_product">Ngừng kinh doanh</string>
+    <string name="description_label">Mô tả</string>
+    <string name="description_optional">Mô tả (không bắt buộc)</string>
+    <string name="save_product">Lưu sản phẩm</string>
+    <string name="name_required">Vui lòng nhập tên sản phẩm</string>
+    <string name="price_invalid">Giá bán phải là số nguyên lớn hơn 0</string>
+    <string name="quantity_invalid">Số lượng phải là số nguyên từ 0 đến 2.147.483.647</string>
+    <string name="stock_value_limit">Tổng giá trị kho vượt giới hạn lưu trữ</string>
+    <string name="save_failed">Không thể lưu sản phẩm. Vui lòng thử lại.</string>
+
+    <string name="detail_title">Chi tiết sản phẩm</string>
+    <string name="price_label">Giá bán</string>
+    <string name="stock_quantity">Số lượng tồn kho</string>
+    <string name="stock_value">Giá trị tồn kho</string>
+    <string name="no_description">Chưa có mô tả</string>
+    <string name="receive_one">+ Nhập thêm 1</string>
+    <string name="sell_one">- Bán 1</string>
+    <string name="back">Quay lại</string>
+    <string name="delete_product">Xóa sản phẩm</string>
+    <string name="delete_confirmation">Bạn muốn xóa sản phẩm “%1$s” khỏi kho?</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete_action">Xóa</string>
+    <string name="out_of_stock">Hết hàng</string>
+    <string name="quantity_limit">Số lượng đã đạt giới hạn lưu trữ</string>
+    <string name="product_missing">Không tìm thấy sản phẩm</string>
+    <string name="delete_failed">Không thể xóa sản phẩm. Vui lòng thử lại.</string>
+
+    <string-array name="product_categories">
+        <item>Điện tử</item>
+        <item>Thực phẩm</item>
+        <item>Văn phòng phẩm</item>
+        <item>Gia dụng</item>
+        <item>Khác</item>
+    </string-array>
+</resources>
